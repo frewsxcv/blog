@@ -67,11 +67,9 @@ find . \
   -exec sed -i 's/\.try!(:\([^,)]\+\)\, *\([^)]\+\)\?)/\&.\1(\2)/g' '{}' \;
 ```
 
-*Note: this assumes GNU sed, so if you're on MacOS you'll need to `brew install gnu-sed` and replace `sed` calls with `gsed`.*
+*Note: this assumes GNU sed, so if you’re on MacOS you'll need to `brew install gnu-sed` and replace `sed` calls with `gsed`.*
 
-Maybe this one-liner will help you migrate too!
-
-Thanks for reading!
+Hopefully this one-liner will help you migrate too!
 
 [try!]: http://api.rubyonrails.org/v5.1.3/classes/Object.html#method-i-try-21
 [safe navigation operator]: https://en.wikipedia.org/wiki/Safe_navigation_operator
