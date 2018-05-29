@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Navigating to safe navigation
+date: 2018-05-29 09:12:57 -0400
 ---
 
 In December 2013, Ruby 2.3 was released and introduced a [safe navigation operator] to the language: `&.`. The behavior of the operator is identical to [ActiveSupport’s `try!`][try!]:
