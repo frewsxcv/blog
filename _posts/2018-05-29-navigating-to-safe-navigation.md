@@ -12,8 +12,13 @@ toast = []
 toast.try!(:push, '🥑')
 toast&.push('🥑')
 
-toast = nil
+toast = ""
 # Both lines below raise NoMethodError
+toast.try!(:push, '🥑')
+toast&.push('🥑')
+
+toast = nil
+# Both lines below return nil
 toast.try!(:push, '🥑')
 toast&.push('🥑')
 ```
